@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maserati MC20</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><header>MASEARTI - Regisztráció</header></center>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Maserati.html">Maserati</a></li>
+            <li><a href="reg.html">Sign Up</a></li> 
+        </ul>
+    </nav>
+
+        <section>
+        <article>
+            <center><div id="reg_tegla">
+                <h2>Regisztráció</h2>
+                <form action="reg.html" method="get">
+                    <label for="felh">Felhasználónév:</label><br>
+                    <input type="text" id="felh" name="felh" required><p></p>
+
+                    <label for="jelszo">Jelszó:</label><br>
+                    <input type="password" id="jelszo" name="jelszo" required><p></p>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><p></p>
+
+                    <input type="checkbox" name="feltetel" id="feltetel" required>
+                    <label for="feltetel">Elfogadom a felhasználói feltételeket.</label><br><p></p>
+
+                    <label for="modell">Kedvenc Maserati modell:</label><br><p></p>
+
+                    <select name="modell" id="modell">
+                        <option value="mc20">MC20</option>
+                        <option value="ghibli">Ghibli</option>
+                        <option value="quattroporte">Quattroporte</option>
+                        <option value="granturismo">GranTurismo</option>
+                        <option value="levante">Levante</option>
+                    </select><p></p>
+
+                    <label for="adomany">Adomány a Maserati Múzeumnak (Ft):</label><br>
+                    <input type="range" name="adomany" id="adomany" min="1000" max="100000"><p></p>
+
+                    <label for="szulido">Születési idő:</label><br>
+                    <input type="date" name="szulido" id="szulido"><p></p>
+
+                    <input type="submit" value="Regisztrálok">
+                </form>
+            </div></center>
+        </article>
+        <aside>
+            <p><h3>Hamarosan:</h3> Maserati élményvezetés!</p>
+        </aside>
+    </section>
+
+
+</body>
+</html>
